@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5722c438-6439-4d14-a8ff-a2ab79c12ce0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/server/.env.docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/server/src/prisma/prisma.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/server/src/prisma/prisma.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/server/src/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/server/src/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/docs/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/docs/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/docs/app/favicon.ico" beforeDir="false" />
@@ -50,25 +51,9 @@
       <change beforePath="$PROJECT_DIR$/apps/web/public/vercel.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web/public/window.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/next.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/react-internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/nextjs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/react-library.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/code.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,21 +71,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bohdanvorobel/Desktop/tilo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/bohdanvorobel/Desktop/tilo/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bohdanvorobel/Desktop/tilo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "ts.external.directory.path": "/Users/bohdanvorobel/Desktop/tilo/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/server/src/prisma" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754587031709</updated>
-      <workItem from="1754587033149" duration="4578000" />
+      <workItem from="1754587033149" duration="9878000" />
     </task>
     <servers />
   </component>

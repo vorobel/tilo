@@ -2,8 +2,10 @@
   "name": "tilo",
   "private": true,
   "scripts": {
+    "start:db": "docker-compose up -d",
+    "dev:apps": "turbo run dev",
+    "dev": "pnpm start:db && pnpm dev:apps",
     "build": "turbo run build",
-    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
