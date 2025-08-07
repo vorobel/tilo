@@ -4,55 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5722c438-6439-4d14-a8ff-a2ab79c12ce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/server/.env.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/server/src/prisma/prisma.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/server/src/prisma/prisma.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/server/src/user/user.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/server/src/user/user.service.ts" afterDir="false" />
+    <list default="true" id="5722c438-6439-4d14-a8ff-a2ab79c12ce0" name="Changes" comment="initialisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/file-text.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/turborepo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/turborepo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/file-text.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/turborepo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/turborepo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,21 +24,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bohdanvorobel/Desktop/tilo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "ts.external.directory.path": "/Users/bohdanvorobel/Desktop/tilo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bohdanvorobel/Desktop/tilo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bohdanvorobel/Desktop/tilo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/server/src/prisma" />
@@ -106,11 +59,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754587031709</updated>
-      <workItem from="1754587033149" duration="9878000" />
+      <workItem from="1754587033149" duration="10497000" />
     </task>
+    <task id="LOCAL-00001" summary="initialisation">
+      <option name="closed" value="true" />
+      <created>1754599347742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754599347742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialisation" />
   </component>
 </project>
