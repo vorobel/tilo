@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5722c438-6439-4d14-a8ff-a2ab79c12ce0" name="Changes" comment="initialisation">
-      <change afterPath="$PROJECT_DIR$/apps/client/src/app/auth/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/app/auth/signup/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/app/auth/signup/signUpForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/components/ui/submitButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/lib/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/client/src/lib/type.ts" afterDir="false" />
+    <list default="true" id="5722c438-6439-4d14-a8ff-a2ab79c12ce0" name="Changes" comment="registration init">
+      <change afterPath="$PROJECT_DIR$/apps/client/src/app/api/auth/signout/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/app/auth/signin/SigninForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/app/auth/signin/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/app/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/components/ui/SignInButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/components/ui/appBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/client/src/lib/session.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/client/src/app/auth/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/src/app/auth/signup/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/client/src/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/src/lib/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/client/src/lib/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/client/src/lib/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <updated>1754587031709</updated>
       <workItem from="1754587033149" duration="10979000" />
       <workItem from="1754600169680" duration="3208000" />
-      <workItem from="1754675715930" duration="8563000" />
+      <workItem from="1754675715930" duration="22954000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <option name="closed" value="true" />
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754600579200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="registration init">
+      <option name="closed" value="true" />
+      <created>1754684479709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754684479709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialisation" />
+    <MESSAGE value="registration init" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration init" />
   </component>
 </project>
